@@ -22,13 +22,13 @@ to activate on Windows
 ```bash
    .\venvel\Scripts\activate
 ```
-# venvel is the virtual env name
+## venvel is the virtual env name
 to activate in MacOS or Linux
 ```bash
    source venvel/bin/activate
 ```
-# for our project, activate file is present in path - venvel->Scripts->activate
-# so command will be -  source venvel/Scripts/activate
+### for our project, activate file is present in path - venvel->Scripts->activate
+### so command will be -  source venvel/Scripts/activate
 
 ```bash
 #    conda activate venvel
