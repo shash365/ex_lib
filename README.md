@@ -42,3 +42,28 @@ to activate in MacOS or Linux
     pip install -r requirements.txt
 ```
 
+# 5. Add installed requirements to a file
+pip freeze > req.txt
+
+# 6. File structure of this project 
+Flask-Student-App/
+│── app.py                 # Main Flask application
+│── requirements.txt        # Dependencies file
+│── students.csv            # CSV file to store student details (auto-created)
+│── venv/                   # Virtual environment (optional, not pushed to GitHub)
+│── templates/              # HTML Templates folder
+│   │── index.html          # Form to add students
+│   │── students.html       # Display students list
+│── static/                 # (Optional) For CSS, JavaScript, images
+│── .gitignore              # Git ignore file
+
+
+# 7. .gitignore file
+Contains virtual env, csv and other files to be ignored
+
+# 8. To run Flask app
+python app.py
+
+# 9. Access Web App
+http://127.0.0.1:5000/
+
